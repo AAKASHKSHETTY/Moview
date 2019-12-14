@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul
+{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a
+{
+     color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    transition: 0.6 ease-in;
+}
+
+ul li a:hover
+{
+
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+ul li.active a
+{
+
+    background-color: darkorange;
+}
+
+.logo img
+{
+    width: 150px;
+    height: 128px;
+    float: left;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    padding-top: 10px;
+    padding-left: none;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero h1{
+    color: white;
+    font-size: 70px;
+}
+
+.button
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn
+{
+    border: 1px solid grey;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin: 150px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+        background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
